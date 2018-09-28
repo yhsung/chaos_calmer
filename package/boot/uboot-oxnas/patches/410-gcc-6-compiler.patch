@@ -1,256 +1,306 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-<!-- git web interface version 2.18.0, (C) 2005-2006, Kay Sievers <kay.sievers@vrfy.org>, Christian Gierke -->
-<!-- git core binaries version 2.18.0 -->
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta name="generator" content="gitweb/2.18.0 git/2.18.0"/>
-<meta name="robots" content="index, nofollow"/>
-<title>git.openwrt.org Git - openwrt/openwrt.git/summary</title>
-<base href="/" />
-<link rel="stylesheet" type="text/css" href="static/gitweb.css"/>
-<link rel="alternate" title="openwrt/openwrt.git - log - RSS feed" href="?p=openwrt/openwrt.git;a=rss" type="application/rss+xml" />
-<link rel="alternate" title="openwrt/openwrt.git - log - RSS feed (no merges)" href="?p=openwrt/openwrt.git;a=rss;opt=--no-merges" type="application/rss+xml" />
-<link rel="alternate" title="openwrt/openwrt.git - log - Atom feed" href="?p=openwrt/openwrt.git;a=atom" type="application/atom+xml" />
-<link rel="alternate" title="openwrt/openwrt.git - log - Atom feed (no merges)" href="?p=openwrt/openwrt.git;a=atom;opt=--no-merges" type="application/atom+xml" />
-<link rel="shortcut icon" href="static/git-favicon.png" type="image/png" />
-</head>
-<body>
-<div class="page_header">
-<a href="http://git-scm.com/" title="git homepage"><img alt="git" class="logo" height="27" src="static/git-logo.png" width="72" /></a><a href="/">projects</a> / <a href="?a=project_list;pf=openwrt">openwrt</a> / <a href="?p=openwrt/openwrt.git;a=summary">openwrt.git</a> / summary
-</div>
-<form method="get" action="" enctype="multipart/form-data"><div class="search">
-<input name="p" type="hidden" value="openwrt/openwrt.git" />
-<input name="a" type="hidden" value="search" />
-<input name="h" type="hidden" value="HEAD" />
-<select name="st" >
-<option selected="selected" value="commit">commit</option>
-<option value="grep">grep</option>
-<option value="author">author</option>
-<option value="committer">committer</option>
-<option value="pickaxe">pickaxe</option>
-</select> <a href="?p=openwrt/openwrt.git;a=search_help" title="search help">?</a> search:
-<input type="text" name="s"  />
-<span title="Extended regular expression"><label><input type="checkbox" name="sr" value="1" />re</label></span></div>
-</form>
-<div class="page_nav">
-summary | <a href="?p=openwrt/openwrt.git;a=shortlog">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log">log</a> | <a href="?p=openwrt/openwrt.git;a=commit;h=d8274451cb86021107b5efd99694857f869ae6a1">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=d8274451cb86021107b5efd99694857f869ae6a1">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree">tree</a><br/>
-<br/>
-</div>
-<div class="title">&nbsp;</div>
-<table class="projects_list">
-<tr id="metadata_desc"><td>description</td><td>OpenWrt Source Repository</td></tr>
-<tr id="metadata_owner"><td>owner</td><td>Git</td></tr>
-<tr id="metadata_lchange"><td>last change</td><td><span class="datetime">Thu, 27 Sep 2018 20:54:19 +0000</span> (22:54 +0200)</td></tr>
-<tr class="metadata_url"><td>URL</td><td>https://git.openwrt.org/openwrt/openwrt.git</td></tr>
-<tr class="metadata_url"><td></td><td>git://git.openwrt.org/openwrt/openwrt.git</td></tr>
-</table>
-<div class="header">
-<a class="title" href="?p=openwrt/openwrt.git;a=shortlog">shortlog</a>
-</div>
-<table class="shortlog">
-<tr class="dark">
-<td title="2018-09-27"><i>18 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=d8274451cb86021107b5efd99694857f869ae6a1">layerscape: kmod-ppfe: Fix kernel options</a> <span class="refs"> <span class="head" title="heads/master"><a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/master">master</a></span></span></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=d8274451cb86021107b5efd99694857f869ae6a1">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=d8274451cb86021107b5efd99694857f869ae6a1">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=d8274451cb86021107b5efd99694857f869ae6a1;hb=d8274451cb86021107b5efd99694857f869ae6a1">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=d8274451cb86021107b5efd99694857f869ae6a1;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-27"><i>18 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1" title="kernel: Add missing config options for layerscape armv7 target">kernel: Add missing config options for layerscape armv7... </a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1;hb=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=7cc2a6c6be4d3dbb3467f184844db282fc30e2e1;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-27"><i>18 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=a3c80e855c1ed0e6c7972585279c101a4523f0aa">kernel: Add missing config options for samsung target</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=a3c80e855c1ed0e6c7972585279c101a4523f0aa">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=a3c80e855c1ed0e6c7972585279c101a4523f0aa">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=a3c80e855c1ed0e6c7972585279c101a4523f0aa;hb=a3c80e855c1ed0e6c7972585279c101a4523f0aa">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=a3c80e855c1ed0e6c7972585279c101a4523f0aa;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-27"><i>19 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Kevin+Darbyshire-Bryant;st=author" title="Search for commits authored by Kevin Darbyshire-Bryant"><span title="Kevin Darbyshire-Bryant">Kevin Darbyshire... </span></a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=37961f12baa756caf5d735fdafff46205d21a93d">wireguard: bump to 0.0.20180925</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=37961f12baa756caf5d735fdafff46205d21a93d">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=37961f12baa756caf5d735fdafff46205d21a93d">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=37961f12baa756caf5d735fdafff46205d21a93d;hb=37961f12baa756caf5d735fdafff46205d21a93d">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=37961f12baa756caf5d735fdafff46205d21a93d;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-27"><i>24 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Kevin+Darbyshire-Bryant;st=author" title="Search for commits authored by Kevin Darbyshire-Bryant"><span title="Kevin Darbyshire-Bryant">Kevin Darbyshire... </span></a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd">dnsmasq: bump to v2.80test7</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd;hb=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=d9a37d8d1eb7d117d5aa44924064a4a3b5517ddd;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>41 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=3fa7e62cec16393d09a914e3c36a14df8353c608">mac80211: fix selecting of ath10k -ct firmware</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=3fa7e62cec16393d09a914e3c36a14df8353c608">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=3fa7e62cec16393d09a914e3c36a14df8353c608">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=3fa7e62cec16393d09a914e3c36a14df8353c608;hb=3fa7e62cec16393d09a914e3c36a14df8353c608">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=3fa7e62cec16393d09a914e3c36a14df8353c608;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-26"><i>41 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=2a64c7ea74f03466896626bd6cc70c8bdae6fd81">mac80211: Use backports-4.19-rc5-1.tar.xz</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=2a64c7ea74f03466896626bd6cc70c8bdae6fd81">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=2a64c7ea74f03466896626bd6cc70c8bdae6fd81">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=2a64c7ea74f03466896626bd6cc70c8bdae6fd81;hb=2a64c7ea74f03466896626bd6cc70c8bdae6fd81">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=2a64c7ea74f03466896626bd6cc70c8bdae6fd81;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>42 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Rosy+Song;st=author" title="Search for commits authored by Rosy Song">Rosy Song</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=2dc1f54b1205094e7c6036cae6275d2c326bad3e">iptables: fix dependency for libip6tc on IPV6</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=2dc1f54b1205094e7c6036cae6275d2c326bad3e">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=2dc1f54b1205094e7c6036cae6275d2c326bad3e">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=2dc1f54b1205094e7c6036cae6275d2c326bad3e;hb=2dc1f54b1205094e7c6036cae6275d2c326bad3e">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=2dc1f54b1205094e7c6036cae6275d2c326bad3e;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Martin+Schiller;st=author" title="Search for commits authored by Martin Schiller">Martin Schiller</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74">uboot-lantiq: fix compatibility with gcc7</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74;hb=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=e86cdf85a7d0bd189e3452ec9e754baa1cf8ab74;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=INAGAKI+Hiroshi;st=author" title="Search for commits authored by INAGAKI Hiroshi">INAGAKI Hiroshi</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=81f7bdcb8d6284dbc291b7300c536359c8a528bd">ath79: add support for Buffalo BHR-4GRV</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=81f7bdcb8d6284dbc291b7300c536359c8a528bd">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=81f7bdcb8d6284dbc291b7300c536359c8a528bd">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=81f7bdcb8d6284dbc291b7300c536359c8a528bd;hb=81f7bdcb8d6284dbc291b7300c536359c8a528bd">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=81f7bdcb8d6284dbc291b7300c536359c8a528bd;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=INAGAKI+Hiroshi;st=author" title="Search for commits authored by INAGAKI Hiroshi">INAGAKI Hiroshi</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27" title="ath79: fix support for Buffalo WZR-HP-G450H and split to dts/dtsi">ath79: fix support for Buffalo WZR-HP-G450H and split... </a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27;hb=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=1df1ea4d7e8b6ae3351780ed58800ccd9edd4c27;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=INAGAKI+Hiroshi;st=author" title="Search for commits authored by INAGAKI Hiroshi">INAGAKI Hiroshi</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=b6e6785c88abe5183a6c8ebcd20e1175933883d5" title="ath79: fix wrong pll-data value for I-O DATA WN-AC-DGR devices">ath79: fix wrong pll-data value for I-O DATA WN-AC... </a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=b6e6785c88abe5183a6c8ebcd20e1175933883d5">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=b6e6785c88abe5183a6c8ebcd20e1175933883d5">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=b6e6785c88abe5183a6c8ebcd20e1175933883d5;hb=b6e6785c88abe5183a6c8ebcd20e1175933883d5">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=b6e6785c88abe5183a6c8ebcd20e1175933883d5;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Steffen+F%C3%B6rster;st=author" title="Search for commits authored by Steffen Förster">Steffen Förster</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=8480907e7074de14f76335a20e4880ef89ae5135">ramips: fix Archer C20 sysupgrade</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=8480907e7074de14f76335a20e4880ef89ae5135">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=8480907e7074de14f76335a20e4880ef89ae5135">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=8480907e7074de14f76335a20e4880ef89ae5135;hb=8480907e7074de14f76335a20e4880ef89ae5135">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=8480907e7074de14f76335a20e4880ef89ae5135;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Emil+Muratov;st=author" title="Search for commits authored by Emil Muratov">Emil Muratov</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee">ramips: fix power LED DTB for wt3020</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee;hb=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=8e6bc1a5beec6a9829ad77e0b8ace2ab106772ee;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="dark">
-<td title="2018-09-26"><i>44 hours ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Joseph+C.+Lehner;st=author" title="Search for commits authored by Joseph C. Lehner">Joseph C. Lehner</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=d6e39e7466b677c098446bfe0f999f7af69512e7">ramips: ex2700: actually remove kmod-mt76*</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=d6e39e7466b677c098446bfe0f999f7af69512e7">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=d6e39e7466b677c098446bfe0f999f7af69512e7">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=d6e39e7466b677c098446bfe0f999f7af69512e7;hb=d6e39e7466b677c098446bfe0f999f7af69512e7">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=d6e39e7466b677c098446bfe0f999f7af69512e7;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr class="light">
-<td title="2018-09-26"><i>2 days ago</i></td>
-<td class="author"><a class="list" href="?p=openwrt/openwrt.git;a=search;s=Hauke+Mehrtens;st=author" title="Search for commits authored by Hauke Mehrtens">Hauke Mehrtens</a></td><td><a class="list subject" href="?p=openwrt/openwrt.git;a=commit;h=c662299bf98b6214628168379edd642f1b942b98">ath10k-ct: update to version ath10k-4.16</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=commit;h=c662299bf98b6214628168379edd642f1b942b98">commit</a> | <a href="?p=openwrt/openwrt.git;a=commitdiff;h=c662299bf98b6214628168379edd642f1b942b98">commitdiff</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=c662299bf98b6214628168379edd642f1b942b98;hb=c662299bf98b6214628168379edd642f1b942b98">tree</a> | <a href="?p=openwrt/openwrt.git;a=snapshot;h=c662299bf98b6214628168379edd642f1b942b98;sf=tgz" title="in format: tar.gz">snapshot</a></td>
-</tr>
-<tr>
-<td colspan="4"><a href="?p=openwrt/openwrt.git;a=shortlog">...</a></td>
-</tr>
-</table>
-<div class="header">
-<a class="title" href="?p=openwrt/openwrt.git;a=tags">tags</a>
-</div>
-<table class="tags">
-<tr class="dark">
-<td><i>3 weeks ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=9a96ec08a953a409b76b1d5f90de183c51937547">v17.01.6</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=ea72e0b1f937357db7b8faec250ecd385e29f138">LEDE v17.01.6 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=ea72e0b1f937357db7b8faec250ecd385e29f138">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=9a96ec08a953a409b76b1d5f90de183c51937547">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.6">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.6">log</a></td>
-</tr><tr class="light">
-<td><i>6 weeks ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=70255e3d624cd393612069aae0a859d1acbbeeae">v18.06.1</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=b261a1195fca2b8b951203f0f1464d163455b9c3">OpenWrt v18.06.1 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=b261a1195fca2b8b951203f0f1464d163455b9c3">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=70255e3d624cd393612069aae0a859d1acbbeeae">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v18.06.1">log</a></td>
-</tr><tr class="dark">
-<td><i>8 weeks ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=03b693064b6ad85ce9c57ab0226b986b09c8eb05">v18.06.0</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=d243cf3da5b88a15485cae19c9c2f0b8b9aa5caa">OpenWrt v18.06.0 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=d243cf3da5b88a15485cae19c9c2f0b8b9aa5caa">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=03b693064b6ad85ce9c57ab0226b986b09c8eb05">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.0">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v18.06.0">log</a></td>
-</tr><tr class="light">
-<td><i>2 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=248b35890339d70d7b43e3b40fba0281f854ed9a">v17.01.5</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=f9d18e2bb1d1e008774b0da99c73625602d33bd5">LEDE v17.01.5 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=f9d18e2bb1d1e008774b0da99c73625602d33bd5">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=248b35890339d70d7b43e3b40fba0281f854ed9a">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.5">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.5">log</a></td>
-</tr><tr class="dark">
-<td><i>2 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=4de335bdbed6b6ef5b191ba31b71f007dc419172">v18.06.0-rc2</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=373a8f47ac809b4bb0fdb56cfcdfcbe3bb2fda8e">OpenWrt v18.06.0-rc2 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=373a8f47ac809b4bb0fdb56cfcdfcbe3bb2fda8e">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=4de335bdbed6b6ef5b191ba31b71f007dc419172">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.0-rc2">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v18.06.0-rc2">log</a></td>
-</tr><tr class="light">
-<td><i>3 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=13f64a1e597e00e7bc9cf73866533f668482c4fa">v18.06.0-rc1</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=bd01c2d3a34145e4823ae62b99496c9a9b722a57">OpenWrt v18.06.0-rc1 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=bd01c2d3a34145e4823ae62b99496c9a9b722a57">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=13f64a1e597e00e7bc9cf73866533f668482c4fa">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.0-rc1">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v18.06.0-rc1">log</a></td>
-</tr><tr class="dark">
-<td><i>11 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=444add156f2a6d92fc15005c5ade2208a978966c">v17.01.4</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=a0a7b1065cfa073570186958c919b6ed04837d86">LEDE v17.01.4 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=a0a7b1065cfa073570186958c919b6ed04837d86">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=444add156f2a6d92fc15005c5ade2208a978966c">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.4">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.4">log</a></td>
-</tr><tr class="light">
-<td><i>11 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=df54a8f583a9afad356fb99a575d75b69c8c0dd4">v17.01.3</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=1edb66f5f051b003b0ad5fcc3a08acb9d0700d9e">LEDE v17.01.3 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=1edb66f5f051b003b0ad5fcc3a08acb9d0700d9e">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=df54a8f583a9afad356fb99a575d75b69c8c0dd4">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.3">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.3">log</a></td>
-</tr><tr class="dark">
-<td><i>15 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=2da512ecf4631cd7812283f0931cf6bbf842a313">v17.01.2</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=69d8988682d88bdf47bd453dd968838b0eb0f8dd">LEDE v17.01.2 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=69d8988682d88bdf47bd453dd968838b0eb0f8dd">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=2da512ecf4631cd7812283f0931cf6bbf842a313">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.2">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.2">log</a></td>
-</tr><tr class="light">
-<td><i>17 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=48461b5abc382b26edd0d2637f0f7b952bed90ba">v17.01.1</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=08160a8aab7d705212221f798f66030250bd8c3e">LEDE v17.01.1 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=08160a8aab7d705212221f798f66030250bd8c3e">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=48461b5abc382b26edd0d2637f0f7b952bed90ba">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.1">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.1">log</a></td>
-</tr><tr class="dark">
-<td><i>19 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=ac733df99c78f54b4cf9a8710f70a506f73e66fc">v17.01.0</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=b2c0a3598369590ed8a14f126369d3f64ba25716">LEDE v17.01.0 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=b2c0a3598369590ed8a14f126369d3f64ba25716">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=ac733df99c78f54b4cf9a8710f70a506f73e66fc">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.0">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.0">log</a></td>
-</tr><tr class="light">
-<td><i>19 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=28b7d7f1dac725157c19236b8899e1c97f19cee9">v17.01.0-rc2</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=8eea930f9785c9f5c8a562edfeda05cfbd00cdc2">LEDE v17.01.0-rc2 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=8eea930f9785c9f5c8a562edfeda05cfbd00cdc2">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=28b7d7f1dac725157c19236b8899e1c97f19cee9">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.0-rc2">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.0-rc2">log</a></td>
-</tr><tr class="dark">
-<td><i>19 months ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=68a04dbb4271e98c4622e6471c0d600cb57fe75f">v17.01.0-rc1</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=f807a41456e943f89cd8626ca5947aa872a867fc">LEDE v17.01.0-rc1 Release</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=f807a41456e943f89cd8626ca5947aa872a867fc">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=68a04dbb4271e98c4622e6471c0d600cb57fe75f">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v17.01.0-rc1">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/v17.01.0-rc1">log</a></td>
-</tr><tr class="light">
-<td><i>2 years ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=commit;h=ee53a240ac902dc83209008a2671e7fdcf55957a">reboot</a></td>
-<td><a class="list subject" href="?p=openwrt/openwrt.git;a=tag;h=5e419b20de47b518c15ebff8d2370b14c0c4bde1">Start of the LEDE project</a></td>
-<td class="selflink"><a href="?p=openwrt/openwrt.git;a=tag;h=5e419b20de47b518c15ebff8d2370b14c0c4bde1">tag</a></td>
-<td class="link"> | <a href="?p=openwrt/openwrt.git;a=commit;h=ee53a240ac902dc83209008a2671e7fdcf55957a">commit</a> | <a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/reboot">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/tags/reboot">log</a></td>
-</tr></table>
-<div class="header">
-<a class="title" href="?p=openwrt/openwrt.git;a=heads">heads</a>
-</div>
-<table class="heads">
-<tr class="dark">
-<td><i>18 hours ago</i></td>
-<td class="current_head"><a class="list name" href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/master">master</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/master">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/heads/master">log</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=refs/heads/master;hb=refs/heads/master">tree</a></td>
-</tr><tr class="light">
-<td><i>44 hours ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/openwrt-18.06">openwrt-18.06</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/openwrt-18.06">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/heads/openwrt-18.06">log</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=refs/heads/openwrt-18.06;hb=refs/heads/openwrt-18.06">tree</a></td>
-</tr><tr class="dark">
-<td><i>2 weeks ago</i></td>
-<td><a class="list name" href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/lede-17.01">lede-17.01</a></td>
-<td class="link"><a href="?p=openwrt/openwrt.git;a=shortlog;h=refs/heads/lede-17.01">shortlog</a> | <a href="?p=openwrt/openwrt.git;a=log;h=refs/heads/lede-17.01">log</a> | <a href="?p=openwrt/openwrt.git;a=tree;h=refs/heads/lede-17.01;hb=refs/heads/lede-17.01">tree</a></td>
-</tr></table>
-<div class="page_footer">
-<div class="page_footer_text">OpenWrt Source Repository</div>
-<a class="rss_logo" href="?p=openwrt/openwrt.git;a=rss" title="log RSS feed">RSS</a>
-<a class="rss_logo" href="?p=openwrt/openwrt.git;a=atom" title="log Atom feed">Atom</a>
-</div>
-<script type="text/javascript" src="static/gitweb.js"></script>
-<script type="text/javascript">
-window.onload = function () {
-	var tz_cookie = { name: 'gitweb_tz', expires: 14, path: '/' };
-	onloadTZSetup('local', tz_cookie, 'datetime');
-};
-</script>
-</body>
-</html>
+From: Hans de Goede <hdegoede@redhat.com>
+Date: Sat, 7 Feb 2015 21:52:40 +0000 (+0100)
+Subject: Add linux/compiler-gcc6.h to fix builds with gcc6
+X-Git-Tag: v2015.04-rc2~31
+X-Git-Url: http://git.denx.de/?p=u-boot.git;a=commitdiff_plain;h=478b02f1a7043b673565075ea5016376f3293b23
+
+Add linux/compiler-gcc6.h to fix builds with gcc6
+
+Add linux/compiler-gcc6/h from the kernel sources at:
+
+commit 5631b8fba640a4ab2f8a954f63a603fa34eda96b
+Author: Steven Noonan <steven@uplinklabs.net>
+Date:   Sat Oct 25 15:09:42 2014 -0700
+
+    compiler/gcc4+: Remove inaccurate comment about 'asm goto' miscompiles
+
+Signed-off-by: Hans de Goede <hdegoede@redhat.com>
+---
+
+--- /dev/null
++++ b/include/linux/compiler-gcc6.h
+@@ -0,0 +1,284 @@
++#ifndef __LINUX_COMPILER_H
++#error "Please don't include <linux/compiler-gcc.h> directly, include <linux/compiler.h> instead."
++#endif
++
++/*
++ * Common definitions for all gcc versions go here.
++ */
++#define GCC_VERSION (__GNUC__ * 10000		\
++		     + __GNUC_MINOR__ * 100	\
++		     + __GNUC_PATCHLEVEL__)
++
++/* Optimization barrier */
++
++/* The "volatile" is due to gcc bugs */
++#define barrier() __asm__ __volatile__("": : :"memory")
++/*
++ * This version is i.e. to prevent dead stores elimination on @ptr
++ * where gcc and llvm may behave differently when otherwise using
++ * normal barrier(): while gcc behavior gets along with a normal
++ * barrier(), llvm needs an explicit input variable to be assumed
++ * clobbered. The issue is as follows: while the inline asm might
++ * access any memory it wants, the compiler could have fit all of
++ * @ptr into memory registers instead, and since @ptr never escaped
++ * from that, it proofed that the inline asm wasn't touching any of
++ * it. This version works well with both compilers, i.e. we're telling
++ * the compiler that the inline asm absolutely may see the contents
++ * of @ptr. See also: https://llvm.org/bugs/show_bug.cgi?id=15495
++ */
++#define barrier_data(ptr) __asm__ __volatile__("": :"r"(ptr) :"memory")
++
++/*
++ * This macro obfuscates arithmetic on a variable address so that gcc
++ * shouldn't recognize the original var, and make assumptions about it.
++ *
++ * This is needed because the C standard makes it undefined to do
++ * pointer arithmetic on "objects" outside their boundaries and the
++ * gcc optimizers assume this is the case. In particular they
++ * assume such arithmetic does not wrap.
++ *
++ * A miscompilation has been observed because of this on PPC.
++ * To work around it we hide the relationship of the pointer and the object
++ * using this macro.
++ *
++ * Versions of the ppc64 compiler before 4.1 had a bug where use of
++ * RELOC_HIDE could trash r30. The bug can be worked around by changing
++ * the inline assembly constraint from =g to =r, in this particular
++ * case either is valid.
++ */
++#define RELOC_HIDE(ptr, off)						\
++({									\
++	unsigned long __ptr;						\
++	__asm__ ("" : "=r"(__ptr) : "0"(ptr));				\
++	(typeof(ptr)) (__ptr + (off));					\
++})
++
++/* Make the optimizer believe the variable can be manipulated arbitrarily. */
++#define OPTIMIZER_HIDE_VAR(var)						\
++	__asm__ ("" : "=r" (var) : "0" (var))
++
++#ifdef __CHECKER__
++#define __must_be_array(a)	0
++#else
++/* &a[0] degrades to a pointer: a different type from an array */
++#define __must_be_array(a)	BUILD_BUG_ON_ZERO(__same_type((a), &(a)[0]))
++#endif
++
++/*
++ * Force always-inline if the user requests it so via the .config,
++ * or if gcc is too old:
++ */
++#if !defined(CONFIG_ARCH_SUPPORTS_OPTIMIZED_INLINING) ||		\
++    !defined(CONFIG_OPTIMIZE_INLINING) || (__GNUC__ < 4)
++#define inline		inline		__attribute__((always_inline)) notrace
++#define __inline__	__inline__	__attribute__((always_inline)) notrace
++#define __inline	__inline	__attribute__((always_inline)) notrace
++#else
++/* A lot of inline functions can cause havoc with function tracing */
++#define inline		inline		notrace
++#define __inline__	__inline__	notrace
++#define __inline	__inline	notrace
++#endif
++
++#define __always_inline	inline __attribute__((always_inline))
++#define  noinline	__attribute__((noinline))
++
++#define __deprecated	__attribute__((deprecated))
++#define __packed	__attribute__((packed))
++#define __weak		__attribute__((weak))
++#define __alias(symbol)	__attribute__((alias(#symbol)))
++
++/*
++ * it doesn't make sense on ARM (currently the only user of __naked)
++ * to trace naked functions because then mcount is called without
++ * stack and frame pointer being set up and there is no chance to
++ * restore the lr register to the value before mcount was called.
++ *
++ * The asm() bodies of naked functions often depend on standard calling
++ * conventions, therefore they must be noinline and noclone.
++ *
++ * GCC 4.[56] currently fail to enforce this, so we must do so ourselves.
++ * See GCC PR44290.
++ */
++#define __naked		__attribute__((naked)) noinline __noclone notrace
++
++#define __noreturn	__attribute__((noreturn))
++
++/*
++ * From the GCC manual:
++ *
++ * Many functions have no effects except the return value and their
++ * return value depends only on the parameters and/or global
++ * variables.  Such a function can be subject to common subexpression
++ * elimination and loop optimization just as an arithmetic operator
++ * would be.
++ * [...]
++ */
++#define __pure			__attribute__((pure))
++#define __aligned(x)		__attribute__((aligned(x)))
++#define __printf(a, b)		__attribute__((format(printf, a, b)))
++#define __scanf(a, b)		__attribute__((format(scanf, a, b)))
++#define __attribute_const__	__attribute__((__const__))
++#define __maybe_unused		__attribute__((unused))
++#define __always_unused		__attribute__((unused))
++
++/* gcc version specific checks */
++
++#if GCC_VERSION < 30200
++# error Sorry, your compiler is too old - please upgrade it.
++#endif
++
++#if GCC_VERSION < 30300
++# define __used			__attribute__((__unused__))
++#else
++# define __used			__attribute__((__used__))
++#endif
++
++#ifdef CONFIG_GCOV_KERNEL
++# if GCC_VERSION < 30400
++#   error "GCOV profiling support for gcc versions below 3.4 not included"
++# endif /* __GNUC_MINOR__ */
++#endif /* CONFIG_GCOV_KERNEL */
++
++#if GCC_VERSION >= 30400
++#define __must_check		__attribute__((warn_unused_result))
++#define __malloc		__attribute__((__malloc__))
++#endif
++
++#if GCC_VERSION >= 40000
++
++/* GCC 4.1.[01] miscompiles __weak */
++#ifdef __KERNEL__
++# if GCC_VERSION >= 40100 &&  GCC_VERSION <= 40101
++#  error Your version of gcc miscompiles the __weak directive
++# endif
++#endif
++
++#define __used			__attribute__((__used__))
++#define __compiler_offsetof(a, b)					\
++	__builtin_offsetof(a, b)
++
++#if GCC_VERSION >= 40100 && GCC_VERSION < 40600
++# define __compiletime_object_size(obj) __builtin_object_size(obj, 0)
++#endif
++
++#if GCC_VERSION >= 40300
++/* Mark functions as cold. gcc will assume any path leading to a call
++ * to them will be unlikely.  This means a lot of manual unlikely()s
++ * are unnecessary now for any paths leading to the usual suspects
++ * like BUG(), printk(), panic() etc. [but let's keep them for now for
++ * older compilers]
++ *
++ * Early snapshots of gcc 4.3 don't support this and we can't detect this
++ * in the preprocessor, but we can live with this because they're unreleased.
++ * Maketime probing would be overkill here.
++ *
++ * gcc also has a __attribute__((__hot__)) to move hot functions into
++ * a special section, but I don't see any sense in this right now in
++ * the kernel context
++ */
++#define __cold			__attribute__((__cold__))
++
++#define __UNIQUE_ID(prefix) __PASTE(__PASTE(__UNIQUE_ID_, prefix), __COUNTER__)
++
++#ifndef __CHECKER__
++# define __compiletime_warning(message) __attribute__((warning(message)))
++# define __compiletime_error(message) __attribute__((error(message)))
++#endif /* __CHECKER__ */
++#endif /* GCC_VERSION >= 40300 */
++
++#if GCC_VERSION >= 40500
++/*
++ * Mark a position in code as unreachable.  This can be used to
++ * suppress control flow warnings after asm blocks that transfer
++ * control elsewhere.
++ *
++ * Early snapshots of gcc 4.5 don't support this and we can't detect
++ * this in the preprocessor, but we can live with this because they're
++ * unreleased.  Really, we need to have autoconf for the kernel.
++ */
++#define unreachable() __builtin_unreachable()
++
++/* Mark a function definition as prohibited from being cloned. */
++#define __noclone	__attribute__((__noclone__, __optimize__("no-tracer")))
++
++#endif /* GCC_VERSION >= 40500 */
++
++#if GCC_VERSION >= 40600
++/*
++ * When used with Link Time Optimization, gcc can optimize away C functions or
++ * variables which are referenced only from assembly code.  __visible tells the
++ * optimizer that something else uses this function or variable, thus preventing
++ * this.
++ */
++#define __visible	__attribute__((externally_visible))
++#endif
++
++
++#if GCC_VERSION >= 40900 && !defined(__CHECKER__)
++/*
++ * __assume_aligned(n, k): Tell the optimizer that the returned
++ * pointer can be assumed to be k modulo n. The second argument is
++ * optional (default 0), so we use a variadic macro to make the
++ * shorthand.
++ *
++ * Beware: Do not apply this to functions which may return
++ * ERR_PTRs. Also, it is probably unwise to apply it to functions
++ * returning extra information in the low bits (but in that case the
++ * compiler should see some alignment anyway, when the return value is
++ * massaged by 'flags = ptr & 3; ptr &= ~3;').
++ */
++#define __assume_aligned(a, ...) __attribute__((__assume_aligned__(a, ## __VA_ARGS__)))
++#endif
++
++/*
++ * GCC 'asm goto' miscompiles certain code sequences:
++ *
++ *   http://gcc.gnu.org/bugzilla/show_bug.cgi?id=58670
++ *
++ * Work it around via a compiler barrier quirk suggested by Jakub Jelinek.
++ *
++ * (asm goto is automatically volatile - the naming reflects this.)
++ */
++#define asm_volatile_goto(x...)	do { asm goto(x); asm (""); } while (0)
++
++#ifdef CONFIG_ARCH_USE_BUILTIN_BSWAP
++#if GCC_VERSION >= 40400
++#define __HAVE_BUILTIN_BSWAP32__
++#define __HAVE_BUILTIN_BSWAP64__
++#endif
++#if GCC_VERSION >= 40800
++#define __HAVE_BUILTIN_BSWAP16__
++#endif
++#endif /* CONFIG_ARCH_USE_BUILTIN_BSWAP */
++
++#if GCC_VERSION >= 50000
++#define KASAN_ABI_VERSION 4
++#elif GCC_VERSION >= 40902
++#define KASAN_ABI_VERSION 3
++#endif
++
++#if GCC_VERSION >= 40902
++/*
++ * Tell the compiler that address safety instrumentation (KASAN)
++ * should not be applied to that function.
++ * Conflicts with inlining: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67368
++ */
++#define __no_sanitize_address __attribute__((no_sanitize_address))
++#endif
++
++#endif	/* gcc version >= 40000 specific checks */
++
++#if !defined(__noclone)
++#define __noclone	/* not needed */
++#endif
++
++#if !defined(__no_sanitize_address)
++#define __no_sanitize_address
++#endif
++
++/*
++ * A trick to suppress uninitialized variable warning without generating any
++ * code
++ */
++#define uninitialized_var(x) x = x
