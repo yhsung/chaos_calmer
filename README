@@ -1,3 +1,5 @@
+
+
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated
@@ -33,3 +35,7 @@ Sunshine!
 	http://openwrt.org
 
 
+References
+http://www.joemotacek.com/putting-a-newer-version-of-node-js-on-linkit-smart-7688-duo/
+Skip Step 1, 8 (libmraa, libupm are removed in this build)
+Tested on rpi3-stretch (gcc (Raspbian 6.3.0-18+rpi1) 6.3.0 20170516)
